@@ -1,0 +1,49 @@
+html {
+  overflow-x: hidden !important;
+  scroll-behavior: auto !important;
+}
+
+body {
+  background: var(--body_bg);
+  color: var(--main_txt);
+  font-size: 17px;
+  line-height: 1.7;
+  font-family: "Noto Kufi Arabic Variable", sans-serif;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: auto !important;
+
+  svg.icon {
+    cursor: pointer;
+    font-size: 23px;
+    transition: all 0.1s linear;
+    outline: none;
+  }
+
+  a,
+  a:link,
+  a:visited,
+  a:hover,
+  a:active,
+  a:focus {
+    text-decoration: unset;
+    color: var(--main_txt);
+  }
+
+  img,
+  video {
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  textarea {
+    resize: none;
+  }
+
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+}
